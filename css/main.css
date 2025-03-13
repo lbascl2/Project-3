@@ -1,1 +1,15 @@
 /* Place CSS styles here */
+
+
+body {
+    min-height: 100vh;
+
+}
+
+.map-image {
+    height: 300px;
+    margin: 75px;
+    transform: rotate(45deg); 
+    transform-origin: 0 0;
+}
+
