@@ -6,10 +6,58 @@ body {
 
 }
 
+/* TRANSITION TRIAL */
+
 .map-image {
     height: 300px;
     margin: 75px;
+    transition: 1s ease-in-out;
+}
+
+.map-image:hover {
     transform: rotate(45deg); 
     transform-origin: 0 0;
 }
+
+
+/* ERASER TRIAL */
+
+.wrapper {
+    background-color: aqua;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+#stamps {
+    padding: 100px;
+    height: 800px;
+    width: auto;
+    max-width: 100%;
+    position: absolute;
+    z-index: 0;
+   user-select: none;
+   -moz-user-select: none;
+   -webkit-user-drag: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+
+}
+
+#scratch-me {
+    position: absolute;
+    height: 164px;
+    width: 194px;
+    top: 135px;
+    left: 735px;
+    z-index: 1;
+   user-select: none;
+   -moz-user-select: none;
+   -webkit-user-drag: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+}
+
 

@@ -25,9 +25,21 @@
 <body>
   <!-- Place your site's HTML here -->
   <p>This text will display on your site! Jan 19</p>
-  <img class="map-image" src="./img/map.jpeg"
+  <img class="map-image" src="./img/map.jpeg">
 
-  <script src="js/main.js"></script>
+  <div class="wrapper">
+    <img id="stamps" src="./img/stamps-practice-image.jpg">
+    <img id="scratch-me" src="./img/pink-cover.jpg">
+  </div>
+
 </body>
+
+
+<script src="js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src=jquery.eraser.js></script>
+<script>
+  $('#scratch-me').eraser();
+</script>
 
 </html>
