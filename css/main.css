@@ -3,7 +3,7 @@
 
 body {
     min-height: 100vh;
-    background-color: #148888;
+    background-color: #89cdcd;
 
 }
 
@@ -23,8 +23,8 @@ h2 {
     text-shadow: 10px 10px rgb(250, 37, 98);
     font-size: 18vw;
     margin: 0;
-
 }
+
 /* TRANSITION TRIAL */
 
 .map-image {
@@ -66,20 +66,6 @@ h2 {
 
 }
 
-#scratch-me {
-    position: absolute;
-    height: 164px;
-    width: 194px;
-    top: 135px;
-    left: 735px;
-    z-index: 1;
-    
-   user-select: none;
-   -moz-user-select: none;
-   -webkit-user-drag: none;
-   -webkit-user-select: none;
-   -ms-user-select: none;
-}
 
 .ball {
     background-color: rgb(177, 123, 228);
@@ -95,13 +81,34 @@ h2 {
 
 /* HERE STARTS MY WORK ON PROJECT 3 */
 
+/* TEXT */
+h1{
+    font-family: "Playwrite DE LA", cursive;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Fascinate", system-ui;
+    text-align: center;
+    color: #eb874a;
+    text-shadow: 10px 10px rgb(250, 37, 98);
+    font-size: 18vw;
+    margin: 0;
+}
+
+
+/* BACKGROUND CARD */
+
 .card {
     background-color: #fefee6;
     padding-bottom:50%;
     margin-left: 8%;
     margin-right: 8%;
-    margin-top: 12%;
+    margin-top: 2%;
     position: relative;
+    padding-top: 2%;
+    padding-left: 4%;
+
 }
 
 /* STAMP DIMENSIONS */
@@ -109,6 +116,12 @@ h2 {
 .stamps {
     margin: 2%; 
     position: absolute;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 .ponte {
@@ -116,25 +129,25 @@ h2 {
 }
 
 .uffizi {
-    width: 18%;
-    left: 33%
+    width: 17%;
+    left: 38%
 
 }
 
 .wine {
-    width: 20%;
-    left: 54%;
+    width: 18%;
+    left: 58%;
 }
 
 .coffee {
-    width: 12%;
+    width: 11%;
     left: 80%;
 }
 
 .gelato {
-    width: 12%;
+    width: 11%;
     left: 80%;
-    top: 25%;
+    top: 26%;
 }
 
 .vespa {
@@ -143,14 +156,24 @@ h2 {
 }
 
 .david {
-    width: 18%;
-    top: 30%;
-    left: 34%
+    width: 16%;
+    top: 34%;
+    left: 38%
 }
 
 .duomo {
-    width: 35%;
+    width: 33%;
     top: 50%;
-    left: 55%;
+    left: 58%;
 }
 
+#scratch-me {
+    position: absolute;
+    z-index: 1;
+    
+   user-select: none;
+   -moz-user-select: none;
+   -webkit-user-drag: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+}
