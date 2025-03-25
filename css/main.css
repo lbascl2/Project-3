@@ -3,8 +3,11 @@
 
 body {
     min-height: 100vh;
+    background-color: #148888;
 
 }
+
+
 
 /* WELCOME TO TEXT */
 
@@ -78,8 +81,6 @@ h2 {
    -ms-user-select: none;
 }
 
-
-
 .ball {
     background-color: rgb(177, 123, 228);
     height: 20px;
@@ -91,3 +92,56 @@ h2 {
     background-color: rgb(255, 0, 132);
     height: 300px
 }
+
+/* HERE STARTS MY WORK ON PROJECT 3 */
+
+.card {
+    background-color: #fefee6;
+    height: 80vh;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 12%;
+    margin-bottom: 10%;
+    position: relative;
+}
+
+/* STAMP DIMENSIONS */
+
+.stamps {
+    margin: 4em; 
+    position: absolute;
+}
+
+.ponte {
+    width: 10em;
+}
+
+.uffizi {
+    width: 5em;
+
+}
+
+.wine {
+    width: 7em;
+}
+
+.coffee {
+    width: 5em;
+}
+
+.gelato {
+    width: 5em;
+}
+
+.vespa {
+    width: 10em;
+}
+
+.david {
+    height: 10em;
+}
+
+.duomo {
+    width: 10em
+}
+
