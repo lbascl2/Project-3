@@ -97,51 +97,60 @@ h2 {
 
 .card {
     background-color: #fefee6;
-    height: 80vh;
+    padding-bottom:50%;
     margin-left: 8%;
     margin-right: 8%;
     margin-top: 12%;
-    margin-bottom: 10%;
     position: relative;
 }
 
 /* STAMP DIMENSIONS */
 
 .stamps {
-    margin: 4em; 
+    margin: 2%; 
     position: absolute;
 }
 
 .ponte {
-    width: 10em;
+    width: 30%;
 }
 
 .uffizi {
-    width: 5em;
+    width: 18%;
+    left: 33%
 
 }
 
 .wine {
-    width: 7em;
+    width: 20%;
+    left: 54%;
 }
 
 .coffee {
-    width: 5em;
+    width: 12%;
+    left: 80%;
 }
 
 .gelato {
-    width: 5em;
+    width: 12%;
+    left: 80%;
+    top: 25%;
 }
 
 .vespa {
-    width: 10em;
+    width: 30%;
+    top: 58%;
 }
 
 .david {
-    height: 10em;
+    width: 18%;
+    top: 30%;
+    left: 34%
 }
 
 .duomo {
-    width: 10em
+    width: 35%;
+    top: 50%;
+    left: 55%;
 }
 
