@@ -96,6 +96,10 @@ h2 {
     margin: 0;
 }
 
+p {
+    text-align: center;
+}
+
 
 /* BACKGROUND CARD */
 
@@ -167,13 +171,3 @@ h2 {
     left: 58%;
 }
 
-#scratch-me {
-    position: absolute;
-    z-index: 1;
-    
-   user-select: none;
-   -moz-user-select: none;
-   -webkit-user-drag: none;
-   -webkit-user-select: none;
-   -ms-user-select: none;
-}

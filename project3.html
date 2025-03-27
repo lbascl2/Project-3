@@ -1,69 +1,147 @@
-<!doctype html>
-<html class="no-js" lang="en">
+  <!doctype html>
+  <html class="no-js" lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <title>Responsive Layouts</title>
-  <meta name="Project-3" content="This site will serve as the hub for many sub responsive layouts">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8">
+    <title>Responsive Layouts</title>
+    <meta name="Project-3" content="This site will serve as the hub for many sub responsive layouts">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
 
-<!-- COME CHANGE THIS ONCE YOU DECIDE ON A FONT -->
-  <link rel="preconnect" href="https://fonts.googleapis.com"> 
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Fascinate&family=Playwrite+DE+LA:wght@100..400&family=Rock+Salt&display=swap" rel="stylesheet">
+  <!-- COME CHANGE THIS ONCE YOU DECIDE ON A FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Fascinate&family=Playwrite+DE+LA:wght@100..400&family=Rock+Salt&display=swap" rel="stylesheet">
 
-  <meta name="theme-color" content="#fafafa">
-</head>
+    <meta name="theme-color" content="#fafafa">
+  </head>
 
-<body>
+  <body>
 
-    <h2>Florence</h1>
+      <h2>Florence</h1>
 
-  <div class="card">
-    <div>
-      <img class="stamps ponte" src="./img/pontevecchio.png">
-      <img class="stamps uffizi" src="./img/uffizi.png">
-      <img class="stamps wine" src="./img/wine.png">
-      <img class="stamps coffee" src="./img/coffee.png">
-      <img class="stamps gelato" src="./img/gelato.png">
-      <img class="stamps vespa" src="./img/vespa.png">
-      <img class="stamps david" src="./img/david.png">
-      <img class="stamps duomo" src="./img/duomo.png">
+    <div class="card">
+      <div>
+        <img class="stamps ponte" src="./img/pontevecchio.png">
+        <img class="stamps uffizi" src="./img/uffizi.png">
+        <img class="stamps wine" src="./img/wine.png">
+        <img class="stamps coffee" src="./img/coffee.png">
+        <img class="stamps gelato" src="./img/gelato.png">
+        <img class="stamps vespa" src="./img/vespa.png">
+        <img class="stamps david" src="./img/david.png">
+        <img class="stamps duomo" src="./img/duomo.png">
+      </div>
+
+      <div> 
+        <img class="stamps ponte" src="./img/pontevecchio-scratchme.png">
+        <img class="stamps uffizi" src="./img/uffizi-scratchme.png">
+        <img class="stamps wine" src="./img/wine-scratchme.png">
+        <img class="stamps coffee" src="./img/coffee-scratchme.png">
+        <img class="stamps gelato" src="./img/gelato-scratchme.png">
+        <img class="stamps vespa" src="./img/vespa-scratchme.png">
+        <img class="stamps david" src="./img/david-scratchme.png">
+        <img class="stamps duomo" src="./img/duomo-scratchme.png">
+      </div>
+
+      <p>instructions</p>
+
     </div>
 
-    <div> 
-      <img id="scratch-me" class="stamps ponte" src="./img/pontevecchio-scratchme.png">
-      <img id="scratch-me" class="stamps uffizi" src="./img/uffizi-scratchme.png">
-      <img class="stamps wine" src="./img/wine-scratchme.png">
-      <img class="stamps coffee" src="./img/coffee-scratchme.png">
-      <img class="stamps gelato" src="./img/gelato-scratchme.png">
-      <img class="stamps vespa" src="./img/vespa-scratchme.png">
-      <img class="stamps david" src="./img/david-scratchme.png">
-      <img class="stamps duomo" src="./img/duomo-scratchme.png">
-    </div>
-  </div>
+
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src=jquery.eraser.js></script>
+  <script src="js/main.js"></script>
+  <script>
+
+    // $('.scratch-me').eraser();
+    //     $('.stamps').each(function() {
+    //   $(this).eraser();
+    // });
+    // document.querySelectorAll('.stamps').eraser();
 
 
-</body>
 
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
-<script src="js/main.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src=jquery.eraser.js></script>
-<script>
-  $('#scratch-me').eraser();
-</script>
+    // $(document).ready(function() {
+    // // Apply eraser effect to all images with the 'stamps' class
+    //   $('.stamps').each(function() {
+    //     // Initialize eraser effect on the image
+    //     $(this).eraser();
 
-</html>
+    //     // Ensure canvas is responsive based on the image size
+    //     var canvas = $(this).next('canvas'); // Get the canvas that was created after eraser is applied
+    //     var imgWidth = $(this).width(); // Image width
+    //     var imgHeight = $(this).height(); // Image height
+
+    //     // Set the canvas width and height to match the image size
+    //     canvas.attr('width', imgWidth);
+    //     canvas.attr('height', imgHeight);
+
+    //     // Resize canvas dynamically on window resize
+    //     $(window).resize(function() {
+    //       var newWidth = $(this).width();  // New window width
+    //       var newHeight = $(this).height();  // New window height
+    //       canvas.attr('width', imgWidth * (newWidth / $(window).width()));  // Scale canvas width
+    //       canvas.attr('height', imgHeight * (newHeight / $(window).height()));  // Scale canvas height
+    //     });
+    //   });
+    // });
+
+
+
+    $(document).ready(function() {
+    // Apply eraser effect to all images with the 'stamps' class
+    $('.stamps').each(function() {
+      var img = $(this); // Get the image element
+
+      // Initialize eraser effect on the image
+      img.eraser();
+
+      // Get the canvas that was created after eraser is applied
+      var canvas = img.next('canvas');
+      
+      // Initial setup for the canvas size
+      var setCanvasSize = function() {
+        var containerWidth = img.parent().width();  // Parent container width
+        var containerHeight = img.parent().height(); // Parent container height
+
+        // Set the canvas width and height based on the parent container's dimensions
+        var imgPercentageWidth = img.width() / containerWidth * 100;  // Width percentage of the container
+        var imgPercentageHeight = img.height() / containerHeight * 100; // Height percentage of the container
+
+        // Apply percentage-based canvas width and height
+        canvas.css({
+          width: 'auto',
+          height: 'auto'
+        });
+
+        // Optionally, adjust the canvas attributes for fine-tuned control (optional)
+        canvas.attr('width', imgPercentageWidth + '%');
+        canvas.attr('height', imgPercentageHeight + '%');
+      };
+
+      // Set the initial canvas size
+      setCanvasSize();
+
+      // Resize canvas dynamically on window resize
+      $(window).resize(function() {
+        setCanvasSize();
+      });
+    });
+  });
+  </script>
+
+  </html>
