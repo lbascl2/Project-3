@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <title>Responsive Layouts</title>
-    <meta name="Project-3" content="This site will serve as the hub for many sub responsive layouts">
+    <meta name="Florence" content="An electronic post card and scratch card for Florence, Italy.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta property="og:title" content="">
@@ -13,13 +13,11 @@
     <meta property="og:image" content="">
 
     <link rel="manifest" href="site.webmanifest">
-    <link rel="icon" href="icon.png">
-    <!-- Place favicon.ico in the root directory -->
+    <link rel="icon" href="./img/florence-icon.png">
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
 
-  <!-- COME CHANGE THIS ONCE YOU DECIDE ON A FONT -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
@@ -38,6 +36,24 @@
         <h2>Florence</h2>
         <h3>Italy</h3>
       </div>
+
+      <div class="triangle-flex">
+        <div class="triangle">
+        <!-- triangle exists here -->
+        </div>
+      </div>
+
+
+      <img class="sun-center" src="./img/sun-center.png">
+      <img class="sun-rays" src="./img/sun-rays.png">
+
+      <div class="cloud-group"> 
+        <img class="cloud-1" src="./img/cloud.png">
+        <img class="cloud-2" src="./img/cloud.png">
+        <img class="cloud-3" src="./img/cloud.png">
+      </div>
+  
+      <p>Use your cursor to scratch off the places you've been and things you've tried!</p>
 
       <div class="card">
         <div>
@@ -72,41 +88,6 @@
   <script src=jquery.eraser.js></script>
   <script src="js/main.js"></script>
   <script>
-
-    // $('.scratch-me').eraser();
-    //     $('.stamps').each(function() {
-    //   $(this).eraser();
-    // });
-    // document.querySelectorAll('.stamps').eraser();
-
-
-
-    // $(document).ready(function() {
-    // // Apply eraser effect to all images with the 'stamps' class
-    //   $('.stamps').each(function() {
-    //     // Initialize eraser effect on the image
-    //     $(this).eraser();
-
-    //     // Ensure canvas is responsive based on the image size
-    //     var canvas = $(this).next('canvas'); // Get the canvas that was created after eraser is applied
-    //     var imgWidth = $(this).width(); // Image width
-    //     var imgHeight = $(this).height(); // Image height
-
-    //     // Set the canvas width and height to match the image size
-    //     canvas.attr('width', imgWidth);
-    //     canvas.attr('height', imgHeight);
-
-    //     // Resize canvas dynamically on window resize
-    //     $(window).resize(function() {
-    //       var newWidth = $(this).width();  // New window width
-    //       var newHeight = $(this).height();  // New window height
-    //       canvas.attr('width', imgWidth * (newWidth / $(window).width()));  // Scale canvas width
-    //       canvas.attr('height', imgHeight * (newHeight / $(window).height()));  // Scale canvas height
-    //     });
-    //   });
-    // });
-
-
 
     $(document).ready(function() {
     // Apply eraser effect to all images with the 'stamps' class
